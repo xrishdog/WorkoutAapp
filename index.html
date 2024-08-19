@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <div class="icon">📈</div>
+                <h1>Your lifts</h1>
+            </div>
+            <div class="settings-icon">⚙️</div>
+        </header>
+
+        <div id="home-page" class="content">
+            <h2>Welcome to the Home Page</h2>
+        </div>
+
+        <div id="account-page" class="content">
+            <div class="tabs" id="tabs-container">
+                <div id="your-lifts" class="tab">Your Lifts</div>
+                <div id="monthly-ouputs" class="tab">Total Monthly Outputs</div>
+                <div id="exercise" class="tab">Exercise</div>
+            </div>
+        </div>
+
+        <div id="camera-page" class="content" style="display: none;">
+            <video id="video" autoplay></video>
+            <button id="close-camera-btn">Close Camera</button>
+        </div>
+    </div>
+
+    <footer>
+        <div id="home-btn" class="nav-item active">
+            🏠 Home
+        </div>
+        <div id="camera-btn" class="nav-item">
+            📷 Scan
+        </div>
+        <div id="account-btn" class="nav-item">
+            👤 Profile
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
